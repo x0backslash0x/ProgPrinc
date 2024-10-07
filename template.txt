@@ -1,0 +1,18 @@
+/* <project name>
+ * 
+ * 2024 - 2025 Patrick Lanove
+ * Electronica/ICT - Programming Principles
+ * 
+ * Hoofdstuk x, oefening x
+ */
+
+namespace <namespace>
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //code
+        }
+    }
+}
