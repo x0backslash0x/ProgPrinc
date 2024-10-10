@@ -13,9 +13,9 @@ namespace dertien
         static void Main(string[] args)
         {
             const int doosGrootte = 8;
-            int aantalEieren = 124;
-            int aantalDozen = 15;
-            int aantalRest = 4;
+            int aantalEieren = 124; // ook getest met 324
+            int aantalDozen = aantalEieren / doosGrootte;
+            int aantalRest = aantalEieren % doosGrootte;
 
             string bericht = $"{aantalEieren} eieren passen in {aantalDozen} dozen van {doosGrootte}. Daarbij zal je nog {aantalRest} eieren over hebben.";
             Console.WriteLine(bericht);
