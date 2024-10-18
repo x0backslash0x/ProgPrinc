@@ -25,16 +25,17 @@ namespace muziekStarWars
 
             // Define the notes in Hz
             int A = 440;   // A4
-            int Bb = 466;  // A#4/Bb4
             int B = 494;   // B4
-            int C = 523;   // C5
-            int D = 587;   // D5
-            int Eb = 622;  // D#5/Eb5
-            int E = 659;   // E5
-            int F = 698;   // F5
-            int G = 784;   // G5
             int Ab = 831;  // G#5/Ab5
             int A5 = 880;  // A5
+            // Define the following notes in a lower register (one octave down)
+            int G = 392;   // G4
+            int Eb = 311;  // D#4/Eb4
+            int Bb = 233;  // A#3/Bb3
+            int D = 294;   // D4
+            int C = 261;   // C4
+            int F = 349;   // F4
+            int E = 329;   // E4
 
             // Note durations
             int half = 500;
